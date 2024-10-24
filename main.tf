@@ -13,7 +13,7 @@ provider "aws" {
 
 locals {
   secgr-dynamic-ports = [22,80,443,8080,5000]
-  user= "techpro"
+  user= "emin"
 }
 
 resource "aws_instance" "tf-docker-ec2" {
